@@ -62,7 +62,7 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕ Gruba Ekle➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/{MagandaMusic_bot}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basit komutlar", callback_data="cbhowtouse")],
